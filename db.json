@@ -1,0 +1,117 @@
+{
+  "posts": [
+         
+{ "id":"1",
+"title":"Singapore Tourism Board",
+"location":"",
+"description":"Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
+},
+{ 
+"id":"2",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"3",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"4",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"5",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"6",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"7",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"8",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"9",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"10",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"11",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"12",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+},
+{ 
+"id":"13",
+"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+"title":"Gorgeus",
+"location":"Singapore",
+"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+
+}
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
