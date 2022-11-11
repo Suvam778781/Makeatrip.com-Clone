@@ -1,28 +1,35 @@
 import { Divider } from "@chakra-ui/react";
-import { useEffect, useLayoutEffect } from "react";
+import { useContext, useEffect, useLayoutEffect } from "react";
 import { useState } from "react";
-import Banner, { Banner2 } from "./banner";
+import { Visible } from "../Contexts/ContextforVisiblity";
+import Banner, { Banner2, Banner3, Banner4 } from "./banner";
 import { FooterPart } from "./footer";
 import Navbar, { Banner1 } from "./Navbar";
 
+
+
+// console.log(position+1)
 export default function LandingPage() {
-    const [scrollPosition, setScrollPosition] = useState(1);
-const handleScroll = () => {
-    const position = window.screenY;
-    setScrollPosition(position);
-};
-useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => {
-        window.removeEventListener('scroll', handleScroll);
+    const { position, setposition } = useContext(Visible)
+    const handleScroll = () => {
+        const posi = window.scrollY;
+        if(posi>2){
+            setposition(true)
+        }
     };
-}, []);
-console.log(scrollPosition)
-    return <div onScroll={handleScroll} >
-        <Navbar />
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [position]);
+    return <div onScroll={handleScroll}>
+        <Navbar position={position} />
         <Banner1 id="a2" />
-        <Banner id="a3"/>
+        <Banner id="a3" />
         <Banner2 />
+        <Banner3/>
+        <Banner4/>
         <Divider my={"50px"} />
         <FooterPart />
     </div>
