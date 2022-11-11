@@ -6,8 +6,8 @@ export function FooterPart() {
     return (
         <div style={{justifyContent:"space-around",width:"100%",margin:"auto",marginTop:"40px", alignSelf:"self-start"}} margin="auto">
              <HStack marginTop={"auto"} margin="auto" justifyContent={"space-around"}>
-                <VStack marginLeft={"20px"}>
-                    <Image/>
+                <VStack  marginLeft={"20px"}>
+                    <Image w={"110px"} src="https://i.ibb.co/qCVfGJ6/IMG-20221110-160824-049.jpg"/>
                     <Text alignItems={"flex-start"} fontSize={"14px"}>India's Largest Travel Community</Text>
                     {/* Icons */}
                     <Divider/>

@@ -1,117 +1,446 @@
 {
   "posts": [
-         
-{ "id":"1",
-"title":"Singapore Tourism Board",
-"location":"",
-"description":"Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
-},
-{ 
-"id":"2",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"3",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"4",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"5",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"6",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"7",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"8",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"9",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"10",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"11",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"12",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-},
-{ 
-"id":"13",
-"image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
-"title":"Gorgeus",
-"location":"Singapore",
-"description":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
-
-}
-  ],
-  "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "1",
+      "title": "Singapore Tourism Board",
+      "location": "",
+      "description": "Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
+    },
+    {
+      "id": "2",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "3",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "4",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "5",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "6",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "7",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "8",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "9",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "10",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "11",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "12",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+    },
+    {
+      "id": "13",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "title": "Gorgeus",
+      "location": "Singapore",
+      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "Banner2": [
+    {
+      "id": "1",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949436_1666075538_shutterstock_1243206058.jpg",
+      "by": "Tanisha Mundra",
+      "description": "Cheapest Domestic Flights For November & December 2022"
+    },
+    {
+      "id": "2",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949548_1572875553_1572875541403.jpg",
+      "by": " Rohit Kumar Gupta",
+      "description": "Cherry Blossoms Are About To Bloom In Shillong This Season"
+    },
+    {
+      "id": "3",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949651_1636600759_110.png",
+      "by": " Kadambari Bhatte (curlytravelmess)",
+      "description": "10 Best Places To Experience The Chills This Winter"
+    },
+    {
+      "id": "4",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949736_1635179153_pahalgam_gulmarg.jpeg ",
+      "by": "Karishma Shaikh",
+      "description": "15 Winter Destinations, That Are Not Shimla Or Manali"
+    },
+    {
+      "id": "5",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949788_1508739878_img_9360.jpg",
+      "by": "Amrita",
+      "description": "This Novemeber, Go For A Trek At India - Bhutan Border"
+    },
+    {
+      "id": "6",
+      "image": "https://static2.tripoto.com/media/filter/tst/img/1/SpotDocument/1478950878_1453102404_panamik_hot_geyser_springs_in_nubra_valley_ladakh.jpg",
+      "by": "Disha Kapkoti",
+      "description": "12 Hot Springs In India That Will Warm You Up This Winter"
+    },
+    {
+      "id": "7",
+      "image": "https://static2.tripoto.com/media/filter/tst/img/192200/TripDocument/1571216585_adrithcollage.jpg",
+      "by": "Mouna Nanaiah",
+      "description": "Trips To Take With Your Bae This Winter In India"
+    },
+    {
+      "id": "8",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666950604_1666207073_hornbill_festival_pix_by_vikramjit_kakati.jpg",
+      "by": "Shruti Singh",
+      "description": "Nagaland's Hornbill Festival Is Happening This December"
+    }
+  ],
+  "banner3": [
+    {
+      "id": 1,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666946840_1473408660_2178576805_888a4b57d0_o.jpg",
+      "description": "Planning A 8-Day Trip To Rajasthan"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666946541_1666856103_jodhpur_1519869099.jpg",
+      "description": "5 Music Festivals To Attend In Rajasthan"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666946591_1666356726_img_20191016_wa0050.jpg",
+      "description": "10 Ultra-Luxury Properties In Rajasthan"
+    },
+    {
+      "id": 4,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666946705_1666499348_welcome_and_big_hug_to.jpg",
+      "description": "10 Lake Facing Properties In Udaipur"
+    },
+    {
+      "id": 5,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666946770_1666355978_raj_cover.jpg",
+      "description": "9 Most Iconic Experiences In Rajasthan"
+    },
+    {
+      "id": 6,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666947019_1507625965_dune_dining.jpg",
+      "description": "Honeymoon Special: 5 Nights In Rajasthan"
+    },
+    {
+      "id": 7,
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666950900_1651226811_tripoto_covers.png",
+      "description": "The Ultimate Food Trail Across Royal Rajasthan"
+    },
+    
+    {
+      "id":8,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666951052_1505317485_images_3.jpg",
+
+    "description": "Best Wildlife Sanctuaries Of Rajasthan "
   }
+  ],
+  "banner4": [
+    {
+    "id": "1",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666951500_1509083176_1509083171_novvac4.jpg",
+    "by": "Aakanksha Magan",
+    "description": "8 Best Countries To Visit In November"
+  },
+  {
+    "id": "2",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666951251_1666091756_unwto_invites_applications_for_best_tourism_villages_2022.jpeg",
+    "by": "Tanisha Mundra",
+  "description": "Cheapest International Destinations For Nov & Dec"
+  },
+  {
+    "id": "3",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666951543_1538757486_loi_krathong_fall_in_thailand_57ba337b5f9b58cdfd1c227d.jpg",
+    "by": "Neha Bhise Sadalge",
+    "description": "Your Guide For Best November Escapes Within Asia"
+  },
+  {
+    "id": "4",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658863969_1493707507_15798144758_5a93457ae4_o.jpg",
+    "by": "Sumedha Bharpilania",
+    "description": "Add These Offbeat Places In Europe To Your List"
+  },
+  {
+    "id": "5",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1651046452_1545558276_erdap_2129568_1280.jpg",
+    "by": " Ayushee Chaudhary",
+    "description": "You Can Travel To Serbia From India Without A Visa"
+  },
+  {
+    "id": "6",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1664284174_1638860409_photo_1459600661907_3c72c54955de.jpeg",
+    "by": " Tripoto ",
+    "description": "The Ultimate Guide For Your Next Trip To Dubai"
+  },
+  {
+    "id": "7",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666951409_1654136098_chinatown_mural_art.jpg",
+    "by": "  Kadambari Bhatte (curlytravelmess)",
+    "description": "Travel To Singapore & Soak In The Sunshine"
+  },
+  {
+    "id": "8",
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666952031_1637516919_img_8593.jpg",
+    "by": " Karishma Shaikh",
+    "description": "A Solo Traveller's Guide To Explore Egypt"
+  }],
+
+
+
+  "PackageMindful":[
+
+{ "id":1,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1660666126_image_covera.jpg",
+   "DN":"2D-3N",
+   "description":"Explore Auroville Like a Local on a Bicycle As You Stay On a Rustic Farm | Beyond Community ",
+   "location":"Auroville",
+   "price":6000
+},
+
+{ "id":2,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1638778652_image_cover_b.jpg",
+   "DN":"3D-2N",
+   "description":"Explore Hidden Trails to Forests and Waterfalls Around a Cozy Himalayan | Cosmic Geeks, Dharamkot ",
+   "location":"Himachal Pradesh", 
+   "price":7000
+},
+
+{ "id":3,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1638778652_image_cover_b.jpg",
+   "DN":"3D-2N",
+   "description":"Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli ",
+   "location":"Rajastan",
+   "price":3799
+},
+
+
+{ "id":4,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645772836_image_cover.jpg",
+   "DN":"2D-3N",
+   "description":"Explore an Artist’s Estate &amp; Stay in a Kathkuni Home Hidden in Manali's Forests | NORTH",
+   "location":"Manali",
+   "price":9850
+},
+
+
+{ "id":5,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645772836_image_cover.jpg",
+   "DN":"1D-2N",
+   "description":"Trek to Triund and Stay At The Residence Of Kangra’s Maharaja | Clouds End Villa, Dharamshala ",
+   "location":"Dharamsala",
+   "price":13750
+},
+
+
+{ "id":6,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645772836_image_cover.jpg",
+   "DN":"1D-2N",
+   "description":"Stargaze &amp; Enjoy a Picnic in the Hills as You Stay at a Unique A-Framed Cottage | Urna Boutique Stay",
+   "location":"Mukteswar",
+   "price":8600
+},
+
+
+{ "id":7,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657204838_omya_img_cover_b.jpg",
+   "DN":"2D-3N",
+   "description":"Stargaze & Pluck Your Own Herbs For Tea at This Kumaoni Retreat | Once Upon a Forest, Hariyal",
+   "location":"Bir",
+   "price":10770
+},
+
+
+{ "id":8,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1640323403_image_cover_b.jpg",
+   "DN":"2D-3N",
+   "description":"Learn Yoga While Unwinding Amidst Nature &amp; Hike to a Gorgeous Waterfall | Nature Care Village",
+   "location":"Rishikesh",
+   "price":4799
+}
+
+  ],
+  "TrendingDp":[
+
+{ "id":9,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1565782455_ladakh_app.jpg",
+   "DN":"6D-5N",
+   "description":"Leh Ladakh Packages",
+   "location":"Ladakh",
+   "price":"25000"
+},
+
+
+{ "id":10,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg",
+   "DN":"4D-3N",
+   "description":"Kashmir Packages",
+   "location":"Kashmir",
+   "price":"16000"
+},
+
+{ "id":11,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg",
+   "DN":"5D-4N",
+   "description":"Andaman Packages",
+   "location":"Andaman",
+   "price":"18000"
+},
+
+{ "id":12,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567768782_spiti_app.jpg",
+   "DN":"7D-6N",
+   "description":"Spliti Valley Packages",
+   "location":"Spliti Valley",
+   "price":"22000"
+},
+
+{ "id":13,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1565782355_kerala_app.jpg",
+   "DN":"2D-3N",
+   "description":"Kerala Packages",
+   "location":"Kerala",
+   "price":"12000"
+},
+
+{ "id":14,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567768782_spiti_app.jpg",
+   "DN":"3D-2N",
+   "description":"Northeast India Tour Packages ",
+   "location":"Northeast India",
+   "price":"29000"
+},
+
+{ "id":15,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567083559_rajasthan_app.jpg",
+   "DN":"6D-5N",
+   "description":"Rajastan Packages",
+   "location":"Rajastan",
+   "price":"14000"
+},
+
+{ "id":16,
+  "image":"https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555426507_1552566979_manali_ppc.jpg",
+   "DN":"5D-4N",
+   "description":"Manali Tour Packages",
+   "location":"Manali",
+   "price":"8000" 
+}],
+
+"TrendingIP":[
+
+{ "id":17,
+  "image":"",
+   "DN":"2D-3N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":18,
+  "image":"",
+   "DN":"2D-3N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":19,
+  "image":"",
+   "DN":"2D-3N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":20,
+  "image":"",
+   "DN":"3D-2N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":21,
+  "image":"",
+   "DN":"3D-2N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":22,
+  "image":"",
+   "DN":"2D-3N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":23,
+  "image":"",
+   "DN":"3D-2N",
+   "description":"",
+   "location":"",
+   "price":""
+},
+
+{ "id":24,
+  "image":"",
+   "DN":"3D-2N",
+   "description":"",
+   "location":"",
+   "price":""
+}
+  ]
 }
