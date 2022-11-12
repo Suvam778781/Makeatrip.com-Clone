@@ -6,12 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import {ChakraProvider} from "@chakra-ui/react"
 import { VisibleProvider } from './Contexts/ContextforVisiblity';
 import { AuthContextPeovider } from './Contexts/AuthContext';
+import {BrowserRouter} from "react-router-dom"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <AuthContextPeovider>
   <VisibleProvider>
   <ChakraProvider>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
     </ChakraProvider>
     </VisibleProvider>
     </AuthContextPeovider>

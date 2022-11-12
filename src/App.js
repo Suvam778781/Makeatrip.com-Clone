@@ -4,16 +4,14 @@ import LandingPage from './Landingpage/LandingPage';
 import { FooterPart } from './Landingpage/footer';
 import { Draweer } from './Landingpage/Drawer';
 import { LoginPage } from './Login&Signup/Login';
-
-
-// import data from "./Alldata.json"
-
+import { Package, PackageText } from './PackagePages/Package';
+import Allroutes from './Allroutes.jsx/Allroutes';
 function App() {
   return (
     <div className="App">
-   <LandingPage/>
    {/* <Draweer/> */}
-   <LoginPage/>
+   
+  <Allroutes/>
     </div>
   );
 }
