@@ -20,14 +20,12 @@ export function LoginPage({ isOpen, onClose }) {
         const { name, value } = e.target
         setformdata({ ...formdata, [name]: value })
     }
-
-if(state.isAuth&&state.usertype=="Admin"){
+if(state.isAuth&&state.usertype==="Admin"){
  onClose();
-return <Navigate to ="/admin"/>
+
 }
-else if (state.isAuth&&state.usertype==""){
+else if (state.isAuth&&state.usertype===""){
 onClose();
-   < Navigate to ="/"/>
 }
 // console.log(state)
     return (
@@ -57,7 +55,7 @@ onClose();
                             <Text >  Don't Have An Account ?</Text>
                             <Button onClick={handlesign} >Sign Up</Button>
                         </FormControl>
-                        <Button onClick={() => HandleLogin(formdata)} colorScheme='blue' mr={3}>
+                        <Button onClick={() =>{ HandleLogin(formdata);onClose()}} colorScheme='blue' mr={3}>
                             Login
                         </Button>
                         <Button onClick={onClose}>Cancel</Button>
@@ -83,19 +81,19 @@ export function SignupPage({signupopen}) {
     // i  have to know the user is loged in or not 
     const {isOpen,onOpen,onClose}=useDisclosure()
     const [formdata, setformdata] = useState(initialdata)
-    // useEffect(()=>{
-    //     if(!state.isAuth){
-    //     onOpen()}
-    // },[signupopen])
     const handleChange= (e) => {
         const { name, value } = e.target
         setformdata({ ...formdata, [name]: value })
-
-
     }
+     
         // here i will make post request here then iwill store the data to my database 
         // then iwill call call on close firse 
-        // then the login page will open then login   
+        // then the login page will open then login  
+        useEffect(()=>{
+            if(!state.isAuth){
+                onOpen()
+            }
+        },[signupopen])
         // onClose()
 
    

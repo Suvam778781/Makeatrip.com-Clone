@@ -1,13 +1,15 @@
 import { Link, VStack, Text, HStack, Container, Divider, Image, Flex, IconButton } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 import { SocialIcon } from 'react-social-icons';
+import { Footer2 } from "./Drawer";
 export function FooterPart() {
-
-
+    const navi=useNavigate()
     return (
-        <div style={{justifyContent:"space-around",width:"100%",margin:"auto",marginTop:"40px", alignSelf:"self-start"}} margin="auto">
-             <HStack marginTop={"auto"} margin="auto" justifyContent={"space-around"}>
+        
+        <VStack w="100%"  >
+             <HStack display={{base:"none",xl:"inherit","2xl":"inherit",lg:"inherit"}} marginTop={"auto"} w="100%" margin="auto" justifyContent={"space-around"}>
                 <VStack  marginLeft={"20px"}>
-                    <Image w={"110px"} src="https://i.ibb.co/qCVfGJ6/IMG-20221110-160824-049.jpg"/>
+                    <Link onClick={()=>navi("/")}>  <Image h={"170px"} w={"110px"} src="https://i.ibb.co/3mNc4H5/makeatrip-logopng.png"/></Link>
                     <Text alignItems={"flex-start"} fontSize={"14px"}>India's Largest Travel Community</Text>
                     {/* Icons */}
                     <Divider/>
@@ -85,8 +87,12 @@ export function FooterPart() {
                 
             </HStack >
             <Divider my={"12px"}/>
-            <Container fontWeight={"semibold"} fontSize={"15px"}>© All rights reserved.</Container>
-            
-        </div>
+            <Container visibility={{base:"hidden",xl:"visible","2xl":"visible",lg:"visible"}} w="100%" justifyContent={"center"} display={"flex"}  margin={"auto"} fontWeight={"semibold"} fontSize={"15px"}><Text textAlign={"center"}>© All rights reserved.</Text></Container>
+            <Footer2 />
+        </VStack>
+
+    
+
+    
     )
 } 

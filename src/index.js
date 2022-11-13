@@ -10,15 +10,18 @@ import {BrowserRouter} from "react-router-dom"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-  <AuthContextPeovider>
+<AuthContextPeovider>
   <VisibleProvider>
   <ChakraProvider>
-    <BrowserRouter>
+    
+  <BrowserRouter>
     <App />
+    
     </BrowserRouter>
     </ChakraProvider>
     </VisibleProvider>
-    </AuthContextPeovider>
+    </AuthContextPeovider>  
+   
 
 );
 
