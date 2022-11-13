@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 export default function Banner() {
     const [loading, setloading] = useState(false)
-    const [page, setpage] = useState(0)
+    const [page, setpage] = useState(1)
     const [data, setdata] = useState([])
     const GetBannerData = (page) => {
         setloading(false)
@@ -17,30 +17,28 @@ export default function Banner() {
         })
     }
     useEffect(() => {
-
         GetBannerData(page)
-
     }, [page])
-    if (!loading) {
+
+      if (!loading) {
         return <Skeleton1 />
     }
     return (
-
-        <Stack w="80%" margin={"auto"}>
+        <Stack w="100%" margin={"auto"}>
             <Heading fontSize={{ md: "20px", "xl": "30px", base: "18px" }} marginLeft={"40px"} alignSelf={"start"}>In the Spotlight: Partnerships</Heading>
             <HStack alignItems={'center'} margin="auto" justifyContent={"center"} >
 
-                <IconButton disabled={page === 1} onClick={() => setpage(page - 1)} ><ArrowLeftIcon w={8} /></IconButton>
+                <IconButton visibility={page===1?"hidden":"visible"} onClick={() => setpage(page - 1)} ><ArrowLeftIcon w={8} /></IconButton>
                 <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: 'repeat(2, 1fr)', "lg": 'repeat(4, 1fr)' }} rowGap="30px" gap="10px" justifyContent={"center"} alignItems="center" margin={"auto"} pb="30px" w="100%" >
                     {data.map((ele) =>
-                        <VStack key={ele.id} alignSelf={"initial"} height="350px" >
+                        <VStack key={ele.id} alignSelf={"initial"} w="100%" height="350px" >
                             <Image borderRadius={"6px"} height={"60%"} src={ele.image} />
-                            <Text fontSize={{ md: "14px", base: "12p", "xl": "17px", lg: "16px" }} color="red" fontWeight={"semibold"} alignSelf={"start"}>{ele.title}</Text>
+                            <Text fontSize={{ md: "14px", base: "12p", "xl": "17px", lg: "16px" }} color="blue.300" fontWeight={"semibold"} alignSelf={"start"}>{ele.title}</Text>
                             <Text fontSize={{ md: "14px", base: "12p", "xl": "17px", lg: "16px" }} style={{ "alignSelf": "start" }}>{ele.description}</Text>
                         </VStack>
                     )}
                 </Grid>
-                <IconButton disabled={page === 3} onClick={() => setpage(page + 1)} w="10px"><ArrowRightIcon /></IconButton>
+                <IconButton visibility={page===3?"hidden":"visible"} onClick={() => setpage(page + 1)} w="10px"><ArrowRightIcon /></IconButton>
             </HStack>
         </Stack>
     )
@@ -49,7 +47,7 @@ export function Skeleton1() {
 
     return (
 
-        <Stack w="70%" margin={"auto"}>
+        <Stack w="90%" margin={"auto"}>
 
             <Grid gap="10px" templateColumns={{ base: "repeat(2, 1fr)", sm: 'repeat(2, 1fr)', "lg": 'repeat(4, 1fr)' }} height="auto" justifyContent={"center"} alignItems="center" margin={"auto"} w="100%" >
                 <VStack spacing={1}>
@@ -76,50 +74,48 @@ export function Skeleton1() {
 }
 
 export const Banner2 = () => {
-
-    const [count, setcount] = useState(0)
+    const [count, setcount] = useState(1)
     const [crouserImg, setcrouserImg] = useState(["https://cdn1.tripoto.com/media/filter/nxxl/img/30751/Image/1665394736_homepage_banner_singapore_copy.jpg", "https://cdn1.tripoto.com/media/transfer/img/2224454/Image/1665126895_67098315_6056_4dc2_976b_45c23888b05f.gif"])
+    // useEffect(() => {
 
-    useEffect(() => {
+    //     let ff = setInterval(() => {
+    //         if (count === 0) {
+    //             setcount(1)
+    //         }
+    //         else if (count === 1) {
+    //             setcount(0)
+    //         }
+    //     }, 1000);
 
-        let ff = setInterval(() => {
-            if (count === 0) {
-                setcount(1)
-            }
-            else if (count === 1) {
-                setcount(0)
-            }
-        }, 1000);
+    //     if (count >= 2) {
 
-        if (count >= 2) {
-
-            return clearInterval(ff)
-        }
-    }, [])
-    console.log(count)
+    //         return clearInterval(ff)
+    //     }
+    // }, [count])
+    // console.log(count)
     return (
         <Image w="100%" height="300px" src={crouserImg[count]} />
     )
 }
-export function Banner3() {
+export function Banner3({ bannername, image, bannertext }) {
     const [banner2Data, setbanner2Data] = useState([])
     useEffect(() => {
-        axios(`http://localhost:3000/banner2`).then(res => {
+        axios(`http://localhost:3000/${bannername}`).then(res => {
             setbanner2Data(res.data)
         })
     }, [])
     return (
-        <Stack textAlign={"left"} w="80%" margin={"auto"}>
-            <Heading fontSize={{ md: "20px", "xl": "30px", base: "18px" }} marginY="7px" alignSelf={"start"}>Find Best Places to Visit in India in November & December</Heading>
+        <Stack textAlign={"left"} w="90%" margin={"auto"}>
+            <Heading fontSize={{ lg: "25px", "2xl": "30px", md: "20px", "xl": "27px", base: "18px" }} marginY="15px" alignSelf={"start"}>{bannertext}</Heading>
             <HStack alignItems={'center'} margin="auto" justifyContent={"center"} >
 
 
                 <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: 'repeat(2, 1fr)', "lg": 'repeat(4, 1fr)' }} rowGap="30px" gap="10px" justifyContent={"center"} alignItems="center" margin={"auto"} pb="30px" w="100%" >
                     {banner2Data.map((ele) =>
                         <VStack key={ele.id} alignSelf={"initial"} height="350px" >
-                            <Image borderRadius={"6px"} height={"60%"} src={ele.image} />
+                            <Image borderRadius={"6px"} height={"60%"} w="100%" src={ele.image} />
                             <Text fontSize={{ md: "14px", base: "12p", "xl": "17px", lg: "16px" }} color="black" fontWeight={"semibold"} alignSelf={"start"}>{ele.description}</Text>
-                            <HStack justifyContent="space-around" w="100%">
+                            <HStack justifyContent="flex-start" fontSize={"13px"} w="100%">
                                 <Text fontSize={"13PX"}>by</Text>
                                 <Link color={"blue.300"}>{ele.by}</Link>
                             </HStack>
@@ -127,10 +123,11 @@ export function Banner3() {
                     )}
                 </Grid>
             </HStack>
-            <Image borderRadius={"6px"} src="https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1666956480_rajasthan_1.jpg" />
+            <Image borderRadius={"6px"} src={image} />
         </Stack>
     )
 }
+
 
 export function Banner4() {
 
@@ -143,11 +140,11 @@ export function Banner4() {
 
 
     return (
-        <Stack textAlign={"left"} w="80%" margin={"auto"}>
+        <Stack textAlign={"left"} w="90%" margin={"auto"}>
             <HStack alignItems={'center'} margin="auto" justifyContent={"center"} mt="30px" >
-                <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: 'repeat(2, 1fr)', "lg": 'repeat(4, 1fr)' }} rowGap="-70px"  gap="10px" justifyContent={"center"} alignItems="center" margin={"auto"} w="100%" >
+                <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: 'repeat(2, 1fr)', "lg": 'repeat(4, 1fr)' }} rowGap="-70px" gap="10px" justifyContent={"center"} alignItems="center" margin={"auto"} w="100%" >
                     {banner3Data.map((ele) =>
-                        <VStack key={ele.id} alignSelf={"initial"} height="350px" >
+                        <VStack key={ele.id} alignSelf={"initial"} height="350px">
                             <Image borderRadius={"6px"} height={"60%"} src={ele.image} />
                             <Text fontSize={{ md: "14px", base: "12p", "xl": "17px", lg: "16px" }} color="black" fontWeight={"semibold"} alignSelf={"start"}>{ele.description}</Text>
 
@@ -155,7 +152,7 @@ export function Banner4() {
                     )}
                 </Grid>
             </HStack>
-           
+
         </Stack>
     )
 }

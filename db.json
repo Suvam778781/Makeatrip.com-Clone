@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "name": "suvam panda",
+      "name": "Admin1",
       "email": "suvampandar@gmail.com",
       "password": "Suvam@7787",
       "type": "Admin"
@@ -27,6 +27,20 @@
       "password": "12345678",
       "type": "",
       "id": "HHbG1KE"
+    },
+    {
+      "name": "suvam swagatam panda",
+      "email": "suvamswagatamp@gmail.com",
+      "password": "2345678",
+      "type": "",
+      "id": "swFbdx1"
+    },
+    {
+      "name": "suvam swagatam panda",
+      "email": "suvamswagatamp@gmail.com",
+      "password": "12345678",
+      "type": "",
+      "id": "XQXbdlF"
     }
   ],
   "posts": [
@@ -40,8 +54,8 @@
     {
       "id": "2",
       "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg",
-      "title": "Gorgeus",
-      "location": "Singapore",
+      "title": "SOUDI TOURISM AUTHORITY ",
+      "location": "SOUDI",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
@@ -49,7 +63,7 @@
       "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
-      "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
+      "description": "This Quiz on Saudi Will Help You Design Your Best Adventure!"
     },
     {
       "id": "4",
@@ -60,56 +74,56 @@
     },
     {
       "id": "5",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1659354694_yaopey_yong_flmptucjkto_unsplash.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "6",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1661937030_manali_5_1.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "7",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660817736_078_commonarea_07_min.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "8",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660310642_j_1.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "9",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660807748_shutterstock_1876968394_1_min.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "10",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660807837_shutterstock_1967521477_min.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "11",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660807878_saudi_farasan.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
     },
     {
       "id": "12",
-      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660628672_131902158_8404856472920890_2578227520681040006_n.jpg",
       "title": "Gorgeus",
       "location": "Singapore",
       "description": "These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali"
@@ -328,6 +342,14 @@
       "description": "Learn Yoga While Unwinding Amidst Nature &amp; Hike to a Gorgeous Waterfall | Nature Care Village",
       "location": "Rishikesh",
       "price": 4799
+    },
+    {
+      "image": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1638778652_image_cover_b.jpg",
+      "DN": "2D-3N",
+      "description": "Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli",
+      "price": "12003",
+      "location": "kora",
+      "id": 9
     }
   ],
   "TrendingDp": [

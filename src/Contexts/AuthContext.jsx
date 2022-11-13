@@ -5,6 +5,7 @@ import { useState } from "react";
 import { createContext } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 export const AuthContext = createContext()
+import Swal from 'sweetalert2'
 const initialState = { isAuth: false, token: null, username: "",usertype:"" }
 
 export function AuthContextPeovider({ children }) {
@@ -19,26 +20,52 @@ let flag=""
         allUser.map((ele) => {
             if (ele.email == logindata.email && ele.password ==logindata.password) {
                 if (ele.type === "Admin"){
-                setstate({...state,isAuth:true,usename:ele.name,usertype:ele.type})
+                setstate({...state,isAuth:true,username:ele.name,usertype:ele.type})
                 flag='Admin'
                 }
                 else{
-                    setstate({...state,isAuth:true,usename:ele.name,usertype:ele.type})
+                    setstate({...state,isAuth:true,username:ele.name,usertype:ele.type})
                     flag="user"
                 }
             }
         })
 
     if(flag=="Admin"){
-
-        <Navigate to ="/admin"/>
+        Swal.fire({
+            title: 'Welcome Back Admin',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          });
+        <Navigate to ="/"/>
     }
 else if(flag=="user"){
+    Swal.fire({
+        title: 'Welcome Back User',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      });
 
     <Navigate to ="/"/>
 }
+
 else {
-    alert ("Please Signup First")
+    Swal.fire({
+        title: 'User Not Found Please Sign Up First',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      })
 }
 
     }
@@ -52,7 +79,7 @@ else {
         axios(`http://localhost:3000/users`).then(res => {
             setalluser(res.data)
         })
-    }, [HandleSignup])
+    }, [])
 
     return <AuthContext.Provider value={{ HandleLogin, HandleSignup, state, setstate,allUser}}>
         {children}

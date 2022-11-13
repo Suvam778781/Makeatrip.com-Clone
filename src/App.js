@@ -6,11 +6,12 @@ import { Draweer } from './Landingpage/Drawer';
 import { LoginPage } from './Login&Signup/Login';
 import { Package, PackageText } from './PackagePages/Package';
 import Allroutes from './Allroutes.jsx/Allroutes';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  AOS.init()
   return (
     <div className="App">
-   {/* <Draweer/> */}
-   
   <Allroutes/>
     </div>
   );
