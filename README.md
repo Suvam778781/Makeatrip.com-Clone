@@ -6,7 +6,7 @@ Tripoto is one of the largest communities of Travelers in the world. We are crow
 ## 🔗 Links
 netlify link - https://makeatrip.netlify.app/
 
-github - https://github.com/Suvam778781/Cricket.com_Website_Clone
+github - https://github.com/Suvam778781/hushed-voyage-7986
 
 
 
