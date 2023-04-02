@@ -14,7 +14,7 @@ export function Package({ packagedata, button, heading, dis }) {
     }, [])
     const Getdata = () => {
         setloading(true)
-        axios(`http://localhost:3000/${packagedata}`).then(res => {
+        axios(`https://mock-server-4lyu.onrender.com/${packagedata}`).then(res => {
 
             setdata(res.data)
             setloading(false)
