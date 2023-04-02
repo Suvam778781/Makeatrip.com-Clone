@@ -10,7 +10,7 @@ export default function Banner() {
     const [data, setdata] = useState([])
     const GetBannerData = (page) => {
         setloading(false)
-        axios(`http://localhost:3000/posts?_page=${page}&_limit=4`).then(res => {
+        axios(`https://mock-server-4lyu.onrender.com/posts?_page=${page}&_limit=4`).then(res => {
             console.log(res)
             setdata(res.data)
             setloading(true)
@@ -100,7 +100,7 @@ export const Banner2 = () => {
 export function Banner3({ bannername, image, bannertext }) {
     const [banner2Data, setbanner2Data] = useState([])
     useEffect(() => {
-        axios(`http://localhost:3000/${bannername}`).then(res => {
+        axios(`http://https://mock-server-4lyu.onrender.com/${bannername}`).then(res => {
             setbanner2Data(res.data)
         })
     }, [])
@@ -133,7 +133,7 @@ export function Banner4() {
 
     const [banner3Data, setbanner3Data] = useState([])
     useEffect(() => {
-        axios(`http://localhost:3000/banner3`).then(res => {
+        axios(`https://mock-server-4lyu.onrender.com/banner3`).then(res => {
             setbanner3Data(res.data)
         })
     }, [])
